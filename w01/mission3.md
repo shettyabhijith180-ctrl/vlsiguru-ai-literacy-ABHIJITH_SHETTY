@@ -24,6 +24,8 @@ For example:
 IF temperature > 50°C
         ↓
    Give warning
+```
+
 The system does not learn from previous temperature measurements. It simply follows a rule written by a programmer or system designer.
 
 Therefore, it is mainly **rule-based/traditional software**.
@@ -42,3 +44,64 @@ For example, a simple rule-based system could classify an email as spam if it co
 IF message contains a specific spam pattern
         ↓
        Spam
+```
+
+On the other hand, a machine-learning spam filter can be trained using examples of spam and normal messages. The model learns patterns from these examples and uses them to classify new messages.
+
+Therefore, for this mission, I classify a modern spam filter as **ML-based AI**, while recognising that some spam filters can also be rule-based.
+
+---
+
+## 4. My Own Example
+
+### Automatic Fan Controller
+
+An automatic fan controller can use a predefined temperature rule.
+
+For example:
+
+```text
+IF temperature > 30°C
+        ↓
+    Fan ON
+
+IF temperature < 28°C
+        ↓
+    Fan OFF
+```
+
+The behaviour is explicitly defined by rules, and the system does not learn patterns from data.
+
+Therefore, this is mainly **rule-based/traditional software**, not machine-learning AI.
+
+---
+
+## 5. Key Learning
+
+The important lesson from this mission is that a system behaving intelligently does not automatically mean that it is using AI.
+
+A rule-based system follows explicitly written instructions:
+
+```text
+Human-written rules
+        ↓
+Program follows rules
+        ↓
+      Output
+```
+
+A machine-learning system instead learns patterns from data:
+
+```text
+Training data
+      ↓
+ML algorithm
+      ↓
+Learned model
+      ↓
+New input
+      ↓
+Prediction
+```
+
+Therefore, **explicitly written rules are not the same as a model learning patterns from data**.
