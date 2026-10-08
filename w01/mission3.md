@@ -24,3 +24,21 @@ For example:
 IF temperature > 50°C
         ↓
    Give warning
+The system does not learn from previous temperature measurements. It simply follows a rule written by a programmer or system designer.
+
+Therefore, it is mainly **rule-based/traditional software**.
+
+---
+
+## 3. A Difficult Classification
+
+### Spam Filter
+
+The spam filter was more difficult to classify because a spam filter can be implemented using either predefined rules or machine learning.
+
+For example, a simple rule-based system could classify an email as spam if it contains a particular word or pattern.
+
+```text
+IF message contains a specific spam pattern
+        ↓
+       Spam
