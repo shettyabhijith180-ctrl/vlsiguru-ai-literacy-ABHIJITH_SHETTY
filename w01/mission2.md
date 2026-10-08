@@ -64,7 +64,7 @@ The relationship can be represented conceptually as:
               GENERATIVE AI (GenAI)
                        │
                        ▼
-              Generates new content
+              Generates new content **
 
 > **Note:** Machine Learning and Deep Learning describe approaches used to build AI systems, while Generative AI describes AI systems that generate new content. Many modern Generative AI systems use deep-learning models.
 
