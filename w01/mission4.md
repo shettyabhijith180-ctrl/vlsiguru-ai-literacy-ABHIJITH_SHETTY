@@ -36,3 +36,25 @@ Predict the next token
 Repeat
    ↓
 Generated response
+
+## 2. Beginner Explanation
+
+### Second Prompt
+
+I then asked the AI:
+
+> "Now explain it to me as a beginner using a simple example."
+
+A simple example is:
+
+> **"The sky is"**
+
+The model looks at the context and considers possible next tokens.
+
+For example:
+
+```text
+blue       → high probability
+clear      → possible
+green      → less likely
+car        → very unlikely
