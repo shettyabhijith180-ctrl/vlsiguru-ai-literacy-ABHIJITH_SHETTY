@@ -36,6 +36,7 @@ Predict the next token
 Repeat
    ↓
 Generated response
+```
 
 ## 2. Beginner Explanation
 
