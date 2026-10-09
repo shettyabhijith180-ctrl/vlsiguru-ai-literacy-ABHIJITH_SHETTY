@@ -32,7 +32,7 @@ I will use AI to improve my understanding rather than simply copying its answers
 
 I will treat AI-generated answers as suggestions that may contain mistakes, missing details, or incorrect assumptions. I will question uncertain explanations and compare important claims against reliable sources or practical results.
 
-**Justification from Mission 4:** In Mission 4, I investigated how an LLM generates an answer and checked important claims using technical documentation. This taught me that a clear and convincing AI explanation should still be evaluated and verified rather than automatically accepted.
+**Justification from Missions 4 and 5:** In Mission 4, I investigated how an LLM generates an answer and checked important claims using technical documentation. In Mission 5, I verified the AI's explanation of setup time against official Intel and AMD documentation. Although the explanation was correct, this investigation taught me that an answer should not be accepted simply because it sounds convincing. These missions showed me the importance of checking AI-generated technical information against reliable sources before applying it in engineering work.
 
 ## My AI-Use Agreement
 
