@@ -2,26 +2,22 @@
 
 ## 1. My Chosen Area: Physical Design (PD)
 
-I chose Physical Design because it involves transforming a synthesized design into a physically implemented layout that satisfies timing, power, area, and other design requirements.
+I chose Physical Design because it involves optimising a design to satisfy timing, power, and area requirements.
 
-Physical Design includes floorplanning, placement, clock-tree synthesis, routing, timing analysis, and physical verification.
+## 2. One Task: AI-Assisted Multi-VT Swapping for Power Optimisation
 
-## 2. One Task: Timing Violation Analysis and Optimisation
-
-One important task in Physical Design is analysing timing reports to identify setup violations and determine possible fixes.
-
-Engineers examine critical paths, cell delays, interconnect delays, and timing slack to understand why a path fails to meet its timing requirement.
+After fixing setup and hold violations on timing-critical paths, engineers can identify paths with sufficient positive timing slack and investigate opportunities to replace suitable LVT or RVT cells with HVT cells to reduce leakage power.
 
 ## 3. How AI Might Help
 
-AI could analyse timing reports, identify critical paths and recurring violation patterns, and suggest possible optimisation techniques to help engineers investigate and resolve timing violations more efficiently.
+AI could analyse timing reports, identify paths with sufficient timing margin, and recommend suitable cells for HVT swapping to help reduce leakage power while maintaining timing constraints.
 
 ## 4. Why Human Knowledge Still Matters
 
-Human domain knowledge is still essential because engineers must verify the suggestions, understand the design constraints, and ensure that timing improvements do not cause unacceptable power, area, routing, or reliability problems.
+Human domain knowledge is essential because engineers must evaluate the proposed swaps, consider their impact on setup and hold timing, and verify the final timing and power results after optimisation.
 
 ## 5. Key Learning
 
-AI is not a replacement for Physical Design engineering. It is a capability that can assist engineers with analysing data, identifying patterns, and exploring optimisation opportunities.
+AI can assist Physical Design engineers by analysing timing data and identifying potential power-optimisation opportunities, but its recommendations must be validated before implementation.
 
-> AI can assist Physical Design engineers, but engineering knowledge is necessary to validate its suggestions and make reliable design decisions.
+> AI is not the domain. AI is a capability applied to a domain.
